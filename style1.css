@@ -1,0 +1,240 @@
+body {
+  background: #512720 url("img/1.gif") repeat-y center; }
+
+a {
+  color: #683a33; }
+
+p {
+  margin-top: 17px;
+  padding-left: 8px;
+  line-height: 1.5em;
+  border-left: 3px solid #cfb087; }
+  p:hover {
+    border-left: 3px solid #b0915f; }
+
+h3 {
+  width: 400px;
+  margin-top: 25px;
+  padding-left: 35px;
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform: rotate(-2deg); }
+
+abbr {
+  cursor: help; }
+
+.page-content {
+  position: relative;
+  width: 837px;
+  margin: 0 auto;
+  background: #b0915f; }
+  .page-content::before, .page-content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: #c8af93; }
+  .page-content::before {
+    left: 0;
+    width: 3px;
+    -moz-box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.8);
+    box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.8); }
+  .page-content::after {
+    right: 0;
+    width: 5px;
+    -moz-box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.2); }
+  .page-content .page-aside {
+    float: right;
+    width: 190px;
+    padding: 0px 5px 20px 0px;
+    margin-top: -30px;
+    font-size: 12px; }
+    .page-content .page-aside ul {
+      margin-top: 30px; }
+      .page-content .page-aside ul:first-child {
+        margin-top: 0px; }
+        .page-content .page-aside ul:first-child a:nth-child(2):hover::before {
+          top: 0; }
+        .page-content .page-aside ul:first-child::after {
+          height: 0px;
+          width: 0px; }
+        .page-content .page-aside ul:first-child li:first-child {
+          margin-top: 0px; }
+        .page-content .page-aside ul:first-child li::after {
+          content: "";
+          position: absolute;
+          bottom: -10px;
+          right: 9px;
+          left: 1px;
+          height: 2px;
+          background: linear-gradient(to right, #b0915f, #a7875a, #a7875a, #a7875a, #a7875a, #a7875a, #a7875a, #a7875a, #a7875a, #a7875a, #b0915f); }
+        .page-content .page-aside ul:first-child a:first-child {
+          display: block;
+          padding-left: 13px;
+          margin-right: 15px;
+          font-weight: bold; }
+      .page-content .page-aside ul li {
+        position: relative;
+        margin-top: 20px; }
+    .page-content .page-aside .aside-three a {
+      padding-left: 13px;
+      color: #683a33; }
+    .page-content .page-aside .aside-two a {
+      padding-left: 13px;
+      color: #683a33; }
+      .page-content .page-aside .aside-two a::before {
+        height: 0;
+        width: 0; }
+      .page-content .page-aside .aside-two a:hover::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 10px;
+        height: 10px;
+        background: url("img/2.png") no-repeat 0 0/100% 100%; }
+    .page-content .page-aside a:hover {
+      border-bottom: 1px solid #683a33; }
+    .page-content .page-aside a::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 10px;
+      height: 10px;
+      background: url("img/2.png") no-repeat 0 0/100% 100%; }
+    .page-content .page-aside a:hover::before {
+      top: 3px; }
+    .page-content .page-aside .page-aside-title {
+      margin-right: 13px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold;
+      color: #683a33;
+      letter-spacing: 1px;
+      background: url("img/5.png") repeat-x 0 3px;
+      transform: rotate(-0.5deg); }
+    .page-content .page-aside::before, .page-content .page-aside::after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      width: 400px;
+      height: 260px; }
+    .page-content .page-aside::after {
+      top: -20px;
+      right: -30px;
+      background: #ba8d54 url("img/7.png") repeat-x bottom left;
+      border-radius: 0 0 5px 5px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+      transform: rotate(-5deg); }
+    .page-content .page-aside::before {
+      top: 40px;
+      right: -10px;
+      background: #d6b991 url("img/7.png") repeat-x bottom left;
+      box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.8); }
+  .page-content article {
+    margin-right: 210px;
+    padding: 40px 30px 30px;
+    text-align: left;
+    font-size: 12px;
+    color: #683a33;
+    background: #cfb087;
+    -moz-box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2); }
+    .page-content article h3 {
+      background: url("img/3.png") repeat-x bottom left; }
+    .page-content article footer {
+      margin: 0 auto;
+      margin-top: 30px;
+      width: 250px;
+      text-align: center;
+      background: url("img/3.png") repeat-x bottom left; }
+      .page-content article footer a {
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 12px;
+        border: 1px solid transparent; }
+        .page-content article footer a:hover {
+          border-top: 1px solid #683a33;
+          border-bottom: 1px solid #683a33; }
+    .page-content article p a {
+      border-bottom: 1px dotted #683a33;
+      display: inline-block; }
+      .page-content article p a:hover {
+        display: inline-block;
+        background: #c3a680;
+        border-bottom: 1px solid #683a33; }
+    .page-content article::after {
+      content: "";
+      position: absolute;
+      top: 35px;
+      right: 50px;
+      z-index: 2;
+      width: 200px;
+      height: 100px;
+      background: #ba8d54;
+      transform: rotate(-5deg);
+      border: 15px solid #caaa81;
+      border-image: url(http://img.mukewang.com/52e22a1c0001406e03040221.jpg) 20 round; }
+  .page-content header {
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 5;
+    width: 700px;
+    height: 380px;
+    color: #512720;
+    text-align: center;
+    background: #caaa81 url("img/7.png") repeat-x bottom left;
+    border-bottom: 5px solid #f1cea0;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    transform-origin: 0 0;
+    transform: rotate(-2deg) translateX(-15px); }
+    .page-content header p:nth-child(3) {
+      position: absolute;
+      bottom: -10px;
+      width: 100px;
+      right: -124px;
+      font-size: 12px;
+      text-align: left;
+      border: none;
+      transform: rotate(2deg); }
+      .page-content header p:nth-child(3) a {
+        border-bottom: 1px dotted #683a33;
+        display: inline-block; }
+        .page-content header p:nth-child(3) a:hover {
+          border-bottom: 1px solid #683a33; }
+    .page-content header p:first-child {
+      margin-top: -5px;
+      font-size: 36px;
+      font-weight: bold;
+      color: #6c5c43;
+      letter-spacing: 10px; }
+    .page-content header p:nth-child(2), .page-content header p:nth-child(1) {
+      margin: 0px; }
+    .page-content header .page-title {
+      margin: 0 auto;
+      margin-top: 15px;
+      height: 150px;
+      width: 350px;
+      text-align: center;
+      border: 15px solid #caaa81;
+      border-image: url(http://img.mukewang.com/52e22a1c0001406e03040221.jpg) 20 round; }
+      .page-content header .page-title h1 {
+        margin-top: 40px;
+        font-size: 38px;
+        color: #503f2b; }
+        .page-content header .page-title h1 span {
+          text-shadow: 4px 7px #ad8c69; }
+          .page-content header .page-title h1 span:hover {
+            border: none; }
+      .page-content header .page-title small {
+        font-size: 16px;
+        color: #927150; }
+
+/*# sourceMappingURL=style1.css.map */
